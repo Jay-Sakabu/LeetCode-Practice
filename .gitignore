@@ -1,0 +1,6 @@
+# Ignore Python cache files across the repository
+**/__pycache__/
+
+# Ignore C executables
+**/*.exe
+**/*.out
