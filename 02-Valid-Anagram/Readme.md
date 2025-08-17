@@ -50,3 +50,6 @@ a. If not, they cannot be anagrams. `silent` cannot be an anagram of `listenn`
 2. Compare the frequency of each letter in both strings. If all letter counts match, they are anagrams.
 a. By sorting the letters in alphabetic order, we can compare the strings
 b. `listen` and `silent` arranged alphabetically are both `eilnst`, they are anagrams
+
+### Screenshot of C output
+![Vaglrind Verfication](https://drive.google.com/file/d/1LqMipQY-Q9_Jrj_Y0n-TQ_W8t91ubIJZ/view?usp=sharing)
