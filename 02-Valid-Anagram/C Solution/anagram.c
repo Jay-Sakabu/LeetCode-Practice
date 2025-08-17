@@ -19,7 +19,8 @@ int anagram(char *s, char *t)
     {
         return 0; // Not anagrams if lengths differ
     }
-    //Create copies of the original strings to not alter the originals
+    // Create copies of the original strings to not alter the originals
+    // https://www.geeksforgeeks.org/cpp/strdup-strdndup-functions-c/
     char *s1_copy = strdup(s);
     char *s2_copy = strdup(t);
 
