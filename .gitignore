@@ -4,3 +4,6 @@
 # Ignore C executables
 **/*.exe
 **/*.out
+
+# Ignore VSCode files
+/.vscode
