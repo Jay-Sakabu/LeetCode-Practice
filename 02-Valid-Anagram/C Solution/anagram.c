@@ -45,7 +45,7 @@ void checkAnagram(char *s1, char *s2)
     }
 }
 
-int main()
+int main(void)
 {
     char s1[] = "metalgear";
     char s2[] = "lategamer";
@@ -54,4 +54,5 @@ int main()
     checkAnagram(s1, s3);
     checkAnagram("", "jaysakabu");
     checkAnagram("","");
+    printf(KBLU "End of program!\n" KRESET);
 }
