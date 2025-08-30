@@ -90,7 +90,6 @@ char ***groupAnagrams(char **strs, int strsSize, int *returnSize, int **returnCo
             Entry *temp = entry;
             entry = entry->next;
             free(temp->key);
-            free(temp->values); // Free the values array
             free(temp);
         }
     }
