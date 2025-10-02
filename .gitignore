@@ -1,9 +1,10 @@
 # Ignore Python cache files across the repository
 **/__pycache__/
 
-# Ignore C executables
+# Ignore C executables & debug files
 **/*.exe
 **/*.out
+**/*.dSYM
 
 # Ignore VSCode files
 /.vscode
